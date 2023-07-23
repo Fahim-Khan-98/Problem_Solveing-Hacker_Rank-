@@ -1,0 +1,78 @@
+In Django, django.db.models is a module that provides a set of classes and fields for defining database models. 
+Here are some of the common model classes and fields available in Django
+
+django.db.models.Model
+
+The base class for all Django models.
+django.db.models.AutoField
+
+A field that automatically increments the value for each new object.
+django.db.models.BooleanField
+
+A field that represents a TrueFalse value.
+django.db.models.CharField
+
+A field for storing short text strings.
+django.db.models.CommaSeparatedIntegerField
+
+A field for storing comma-separated integer values.
+django.db.models.DateField
+
+A field for storing dates.
+django.db.models.DateTimeField
+
+A field for storing date and time values.
+django.db.models.DecimalField
+
+A field for storing decimal numbers.
+django.db.models.EmailField
+
+A field for storing email addresses.
+django.db.models.FileField
+
+A field for uploading files.
+django.db.models.FloatField
+
+A field for storing floating-point numbers.
+django.db.models.ImageField
+
+A field for uploading image files.
+django.db.models.IntegerField
+
+A field for storing integers.
+django.db.models.ForeignKey
+
+A field used to define a many-to-one relationship with another model.
+django.db.models.ManyToManyField
+
+A field used to define a many-to-many relationship with another model.
+django.db.models.OneToOneField
+
+A field used to define a one-to-one relationship with another model.
+django.db.models.PositiveIntegerField
+
+A field for storing positive integers.
+django.db.models.PositiveSmallIntegerField
+
+A field for storing positive small integers.
+django.db.models.SlugField
+
+A field for storing URL-friendly strings.
+django.db.models.SmallIntegerField
+
+A field for storing small integers.
+django.db.models.TextField
+
+A field for storing large text strings.
+django.db.models.TimeField
+
+A field for storing time values.
+django.db.models.URLField
+
+A field for storing URLs.
+django.db.models.UUIDField
+
+A field for storing universally unique identifiers (UUIDs).
+These are some of the most commonly used model classes and fields in Django. By using these classes 
+and fields, you can define the structure of your database tables and create relationships between 
+different models in your Django application.
