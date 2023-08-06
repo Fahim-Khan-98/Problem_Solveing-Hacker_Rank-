@@ -1,0 +1,5 @@
+Use VsCode Extension For Django
+
+1. Auto Rename Tag
+2. Prettier - Code formatter
+3. Atom One Dark Theme
