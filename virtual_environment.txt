@@ -3,3 +3,8 @@
 pip install virtualenv
 virtualenv env
 env\Scripts\activate
+
+
+or 
+python -m venv venv
+.\venv\Scripts\activate
